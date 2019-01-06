@@ -1,3 +1,42 @@
+# Mow The Lawn
+> A portable, and silly, mowing-the-lawn animation spinner for bash
+
+</br>
+</br>
+
+#### Table of Contents
+
+* [Overview](#overview)
+* [Getting Started](#getting-started)
+* [Script Options](#script-options)
+
+## Overview
+
+![](mow-the-lawn.gif)
+
+## Getting Started
+1. Copy paste the MowTheLawn.pm into a script
+
+2. Make the script executable
+
+   ```
+   chmod +x NameOfFile.pm
+   ```
+
+3. Run that bad boy!
+
+   ```bash
+   perl NameOfFile.pm --loop-without-pid
+   ```
+
+   or as the animation for a 'long running process'
+
+   ```bash
+   sleep 5 & NameOfFile.pm
+   ```
+
+## Script Options
+
 | key                | type    | description                                                          | required | example                  |
 |--------------------|---------|----------------------------------------------------------------------|----------|--------------------------|
 | --mower            | string  | The text used to create the mower                                    | optional | --mower '`.==.'          |
