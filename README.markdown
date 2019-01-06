@@ -45,5 +45,5 @@
 | --lawn-color       | string  | The color codes for the grass                                        | optional | --lawn-color '38;5;106'  |
 | --lawn-length      | Integer | The number of blades of grass                                        | optional | --lawn-length 40         |
 | --speed            | Integer | The speed (sleep time), between animation frames. Shorter is faster  | optional | --speed 100              |
-| --pid              | Integer | The parent process pid (used to explicitly pass a parent process id) | optional | --pid $!                 |
+| --pid              | Integer | The parent process pid (used to explicitly pass a parent process id) | optional | --pid PID_HERE           |
 | --loop-without-pid | Boolean | Forces the animation to run continuosly, without parent process pid  | optional | --loop-without-pid       |
